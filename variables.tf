@@ -8,7 +8,7 @@ resource "aws_instance" "manvir_app_instance" {
 
 variable "aws_region" {
     description = "EC2 Region for the VPC"
-    default = "eu-west-1"
+    default = "eu-west-1a"
 }
 
 variable "vpc_cidr" {
