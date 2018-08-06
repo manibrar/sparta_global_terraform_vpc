@@ -1,6 +1,6 @@
 variable "aws_region" {
     description = "EC2 Region for the VPC"
-    default = "eu-west-1a"
+    default = "eu-west-1"
 }
 
 variable "vpc_cidr" {
